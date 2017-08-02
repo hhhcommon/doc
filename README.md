@@ -68,3 +68,7 @@ function fancyAlert(arg) {
 - [ ] this is an incomplete item
 
 
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2 [baidu](http://www.baidu.com)
+Content in the first column | Content in the second column ![baidu](https://www.baidu.com/img/baidu_jgylogo3.gif)
