@@ -14,6 +14,9 @@ Research Documentation Center
 
 > > [TDDL入门](https://lindayi.me/tag/tddl/)
 
+# sharding-jdbc
+> > [Sharding JDBC源码分析-JdbcMethodInvocation类的作用](http://blog.csdn.net/jackyechina/article/details/53010667)
+
 # makedown example
 
 It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
