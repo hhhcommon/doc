@@ -2,9 +2,9 @@ Docker Documentation Center
 
 # 搭建 Docker 环境 
 
-##安装与配置 Docker
+## 安装与配置 Docker
 
-###安装 Docker
+### 安装 Docker
 
 Docker 软件包已经包括在默认的 CentOS-Extras 软件源里。因此想要安装 docker，只需要运行下面的 yum 命令：
 
@@ -30,7 +30,7 @@ service docker start
 chkconfig docker on
 ```
 
-###配置 Docker
+### 配置 Docker
 
 因为国内访问 Docker Hub 较慢, 可以使用腾讯云提供的国内镜像源, 加速访问 Docker Hub
 
@@ -50,7 +50,7 @@ service docker restart
 
 ##Docker 的简单操作
 
-###下载镜像
+### 下载镜像
 
 下载一个官方的 CentOS 镜像到本地
 
@@ -64,7 +64,7 @@ docker pull centos
 docker images
 ```
 
-###运行容器
+### 运行容器
 
 这时我们可以在刚才下载的 CentOS 镜像生成的容器内操作了。
 
@@ -100,7 +100,7 @@ exit
 ls /data
 ```
 
-###保存容器
+### 保存容器
 
 查看所有的容器信息， 能获取容器的id
 
@@ -116,5 +116,6 @@ docker commit -m="备注" 你的CONTAINER_ID 你的IMAGE
 
 请自行将 -m 后面的信息改成自己的容器的信息
 
-###大功告成！
+### 大功告成！
+
 [可以在腾讯云实验室在线体验](https://www.qcloud.com/developer/labs/lab/10054)
