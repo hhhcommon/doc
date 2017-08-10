@@ -116,6 +116,41 @@ docker commit -m="备注" 你的CONTAINER_ID 你的IMAGE
 
 请自行将 -m 后面的信息改成自己的容器的信息
 
+## 卸载Docker
+列出你安装过的包
+
+```
+yum list installed | grep docker
+```
+
+如
+
+docker.x86_64                        2:1.12.6-32.git88a4867.el7.centos @extras  
+docker-client.x86_64                 2:1.12.6-32.git88a4867.el7.centos @extras  
+docker-common.x86_64                 2:1.12.6-32.git88a4867.el7.centos @extras  
+
+
+删除安装包
+
+```
+sudo yum -y remove docker.x86_64
+```
+
+```
+sudo yum -y docker-client.x86_64 
+```
+
+```
+sudo yum -y docker-common.x86_64 
+```
+
+
+删除镜像/容器等
+
+```
+$ rm -rf /var/lib/docker
+```
+
 ### 大功告成！
 
 [可以在腾讯云实验室在线体验](https://www.qcloud.com/developer/labs/lab/10054)
