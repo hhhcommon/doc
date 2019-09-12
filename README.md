@@ -5,6 +5,8 @@ Research Documentation Center
 
 > [工具-转换器-PDF在线转换HiPDF](https://www.hipdf.com/)
 
+> [工具-转换器-PDF转换器](http://www.pdfdo.com/)
+
 
 # diamond 
 
